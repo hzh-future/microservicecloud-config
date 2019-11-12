@@ -20,9 +20,9 @@ spring:
       min-idle: 5
       initial-size: 5
       max-total: 5
-      max-wait-millis: 200
+      max-wait-mil`lis: 200
 mybatis:
-  config-location: classpath:mybatis/mybatis.cfg.xml
+  config-localhost: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.hzh.springcloud.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 
